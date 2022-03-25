@@ -1,4 +1,5 @@
-i = 0
-times i < 50
-puts "Iteración #{i}"
-i = i
+50.times do |i| = 0
+    puts "Iteración #{i}"
+end
+
+50.times {|i| puts 'iteración #{i}'}
