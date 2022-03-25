@@ -8,8 +8,8 @@ num = ARGV[0].to_i
 suma = 0
 
 num.times do |i|
-    print "i#{(i+1)}*2 "
-    suma = 0
+    i=(i+1)*2
+    
     suma += i 
 end
 
